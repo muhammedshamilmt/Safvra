@@ -44,10 +44,10 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/25 via-transparent to-black/15" />
       </div>
 
-      {/* Giant Oversized White Background Typography ("Creative") */}
+      {/* Giant Oversized White Background Typography ("Creativity") */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-[-5%] sm:bottom-[-7.5%] left-0 right-0 z-10 flex items-end justify-start overflow-hidden pl-2 sm:pl-6"
+        className="pointer-events-none absolute bottom-6 sm:bottom-[-7.5%] left-0 right-0 z-10 flex items-end justify-start overflow-hidden pl-2 sm:pl-6"
       >
         <div
           style={{
@@ -55,8 +55,8 @@ export default function Hero() {
           }}
           className="transition-transform duration-700 ease-out"
         >
-          <span className="block font-sans text-[33vw] sm:text-[30vw] lg:text-[28.5vw] font-medium tracking-[-0.055em] leading-[0.78] text-white whitespace-nowrap">
-            Creative
+          <span className="block font-sans text-[28vw] sm:text-[26vw] lg:text-[24vw] font-medium tracking-[-0.055em] leading-[0.82] text-white whitespace-nowrap">
+            Creativity
           </span>
         </div>
       </div>
@@ -102,8 +102,8 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Bottom-Right Floating Bio Pill Card */}
-        <div className="w-full flex justify-end mt-auto pt-10 pointer-events-auto">
+        {/* Bottom-Right Floating Bio Pill Card (Hidden on mobile, visible on sm+) */}
+        <div className="hidden sm:flex w-full justify-end mt-auto pt-10 pointer-events-auto">
           <div
             style={{
               transform: `translate3d(${mousePos.x * -6}px, ${mousePos.y * -5}px, 0)`,
