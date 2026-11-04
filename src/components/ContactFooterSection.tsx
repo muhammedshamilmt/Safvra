@@ -347,25 +347,25 @@ export default function ContactFooterSection() {
               </h3>
               <div className="grid grid-cols-2 gap-x-8 gap-y-2.5 max-w-[220px] text-[12px] sm:text-[12.5px] font-normal text-[#4A4A4A]">
                 <a
-                  href="#about"
+                  href="/about"
                   className="hover:text-[#FF5526] transition-colors"
                 >
                   About
                 </a>
                 <a
-                  href="#projects"
+                  href="/#projects"
                   className="hover:text-[#FF5526] transition-colors"
                 >
                   Portfolio
                 </a>
                 <a
-                  href="#services"
+                  href="/services"
                   className="hover:text-[#FF5526] transition-colors"
                 >
                   Services
                 </a>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="hover:text-[#FF5526] transition-colors"
                 >
                   Contact
