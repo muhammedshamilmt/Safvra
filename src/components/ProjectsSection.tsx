@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 
 interface ProjectItem {
   id: string;
@@ -217,6 +218,19 @@ export default function ProjectsSection() {
               </article>
             );
           })}
+        </div>
+
+        {/* View All Projects CTA */}
+        <div className="mt-12 sm:mt-16 flex items-center justify-center">
+          <Link
+            href="/projects"
+            className="group inline-flex items-center gap-2.5 rounded-full bg-[#121212] px-8 py-4 text-[14px] font-semibold text-white tracking-[-0.01em] transition-all duration-300 hover:bg-[#FF5526] hover:shadow-[0_8px_24px_rgba(255,85,38,0.32)] active:scale-95"
+          >
+            <span>Explore All Projects (54+ Works)</span>
+            <span className="text-[13px] transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-0.5">
+              ↗
+            </span>
+          </Link>
         </div>
       </div>
     </section>

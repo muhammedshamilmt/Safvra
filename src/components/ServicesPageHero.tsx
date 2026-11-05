@@ -143,7 +143,7 @@ export default function ServicesPageHero() {
                 }`}
             >
               <img
-                src="/landing/cards-imgs/image-1.png"
+                src="https://i.pinimg.com/1200x/1f/b2/f3/1fb2f3787be2629c0c860a9cd1e1ad36.jpg"
                 alt="Bespoke architectural material detail"
                 fetchPriority="high"
                 className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
@@ -163,7 +163,7 @@ export default function ServicesPageHero() {
                 }`}
             >
               <img
-                src="/landing/projects/image-1.png"
+                src="https://i.pinimg.com/736x/e2/cd/4b/e2cd4b0a61cb1c1092ff96a7ff8d1edf.jpg"
                 alt="Signature interior architecture showcase"
                 fetchPriority="high"
                 className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
@@ -182,7 +182,7 @@ export default function ServicesPageHero() {
                 }`}
             >
               <img
-                src="/landing/cards-imgs/image-2.png"
+                src="https://i.pinimg.com/736x/c9/34/61/c9346178f7e426f974de7e7b3f2d1ee6.jpg"
                 alt="Refined interior living environment"
                 fetchPriority="high"
                 className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"

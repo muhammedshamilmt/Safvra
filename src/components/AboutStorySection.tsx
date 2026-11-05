@@ -36,7 +36,7 @@ export default function AboutStorySection() {
       {/* ==================================================================== */}
       <div className="relative w-full aspect-[16/7.5] sm:aspect-[16/6.8] lg:aspect-[16/6] overflow-hidden bg-[#141414]">
         <img
-          src="https://media.istockphoto.com/id/2210548432/photo/managing-data-servers-in-a-secure-facility.jpg?s=612x612&w=0&k=20&c=SZDG2z2lwiyncUZ8Gb4OVxDKxc0-2HoIzxB9BmPRJXo="
+          src="/landing/image.png"
           alt="Architectural & technical execution on site"
           loading="lazy"
           className="h-full w-full object-cover object-top   transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02]"
